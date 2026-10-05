@@ -1,0 +1,39 @@
+command_id: 7E0.7E8.221209|din=C0,dout=81
+test_cases:
+- expected_values:
+    370Z_MAF: 4.45
+  response: |-
+    221209
+    7E80562120901BD
+- expected_values:
+    370Z_MAF: 4.63
+  response: |-
+    221209
+    7E80562120901CF
+- expected_values:
+    370Z_MAF: 4.64
+  response: |-
+    221209
+    7E80562120901D0
+- expected_values:
+    370Z_MAF: 37.9
+  response: |-
+    221209
+    7E8056212090ECE
+- expected_values:
+    370Z_MAF: 47.01
+  response: |-
+    221209
+    7E805621209125D
+- expected_values:
+    370Z_MAF: 1.91
+  response: 7E80562120900BF
+- expected_values:
+    370Z_MAF: 2.56
+  response: '7E8056212090100'
+- expected_values:
+    370Z_MAF: 5.11
+  response: 7E80562120901FF
+- expected_values:
+    370Z_MAF: 220.45
+  response: 7E805621209561D

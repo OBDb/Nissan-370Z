@@ -1,0 +1,28 @@
+command_id: 7E0.7E8.22111F|din=C0,dout=81
+test_cases:
+- expected_values:
+    370Z_VARIABLE_VLV_TIM_OIL_T: 28
+  response: |-
+    22111F
+    7E80462111F4E
+- expected_values:
+    370Z_VARIABLE_VLV_TIM_OIL_T: 46
+  response: |-
+    22111F
+    7E80462111F60
+- expected_values:
+    370Z_VARIABLE_VLV_TIM_OIL_T: 61
+  response: |-
+    22111F
+    7E80462111F6F
+- expected_values:
+    370Z_VARIABLE_VLV_TIM_OIL_T: 94
+  response: |-
+    22111F
+    7E80462111F90
+- expected_values:
+    370Z_VARIABLE_VLV_TIM_OIL_T: 18
+  response: 7E80462111F44
+- expected_values:
+    370Z_VARIABLE_VLV_TIM_OIL_T: 105
+  response: 7E80462111F9B

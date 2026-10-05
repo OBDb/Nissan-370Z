@@ -1,0 +1,11 @@
+command_id: 740.760.221208|fc=1
+test_cases:
+- expected_values:
+    370Z_ABS_STEER_ANG: 0
+  response: '760056212080000'
+- expected_values:
+    370Z_ABS_STEER_ANG: -24.5
+  response: 76005621208FF0B
+- expected_values:
+    370Z_ABS_STEER_ANG: -0.1
+  response: 76005621208FFFF

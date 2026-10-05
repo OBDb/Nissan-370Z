@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221201|din=C0,dout=81
+test_cases:
+- expected_values:
+    370Z_CURRENT_RPM: 587.5
+  response: 7E805621201002F
+- expected_values:
+    370Z_CURRENT_RPM: 637.5
+  response: '7E8056212010033'
+- expected_values:
+    370Z_CURRENT_RPM: 650
+  response: '7E8056212010034'
+- expected_values:
+    370Z_CURRENT_RPM: 687.5
+  response: '7E8056212010037'
+- expected_values:
+    370Z_CURRENT_RPM: 700
+  response: '7E8056212010038'
+- expected_values:
+    370Z_CURRENT_RPM: 750
+  response: 7E805621201003C

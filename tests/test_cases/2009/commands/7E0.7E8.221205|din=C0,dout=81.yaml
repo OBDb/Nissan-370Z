@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221205|din=C0,dout=81
+test_cases:
+- expected_values:
+    370Z_MAF_V_B2: 1.35
+  response: '7E8 05 62 12 05 01 0E '
+- expected_values:
+    370Z_MAF_V_B2: 0.33
+  response: '7E8056212050042'
+- expected_values:
+    370Z_MAF_V_B2: 1.275
+  response: 7E80562120500FF
+- expected_values:
+    370Z_MAF_V_B2: 1.28
+  response: '7E8056212050100'
+- expected_values:
+    370Z_MAF_V_B2: 2.64
+  response: '7E8056212050210'
