@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221123|din=C0,dout=81
+test_cases:
+- expected_values:
+    370Z_F_RAT_ADJ_B1: -19
+  response: '7E80462112351'
+- expected_values:
+    370Z_F_RAT_ADJ_B1: 16
+  response: '7E80462112374'

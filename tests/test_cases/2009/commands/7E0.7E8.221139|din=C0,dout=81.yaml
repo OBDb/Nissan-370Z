@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221139|din=C0,dout=81
+test_cases:
+- expected_values:
+    370Z_CAM_DUTY_B2: 0
+  response: '7E80462113900'
+- expected_values:
+    370Z_CAM_DUTY_B2: 94.92188
+  response: 7E804621139F3

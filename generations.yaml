@@ -1,0 +1,8 @@
+references:
+  - "https://en.wikipedia.org/wiki/Nissan_370Z"
+
+generations:
+  - name: "Z34"
+    start_year: 2009
+    end_year: 2020
+    description: "The 370Z coupe and roadster, with the 3.7-liter VQ37VHR V6 and a six-speed manual or seven-speed automatic."

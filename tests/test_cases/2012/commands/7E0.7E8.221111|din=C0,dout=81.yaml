@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221111|din=C0,dout=81
+test_cases:
+- expected_values:
+    370Z_FUEL_T: 43
+  response: 7E8046211115D
