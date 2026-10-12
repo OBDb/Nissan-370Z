@@ -45,7 +45,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1137"}, "freq": 1, "dbgfilter": { "years": [2010], "from": 2013 },
   "signals": [
-    {"id": "370Z_CAM_ADV_B2", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "add": -64, "unit": "degrees" }, "name": "Intake camshaft advance, bank 2"}
+    {"id": "370Z_CAM_ADV_B2", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "add": -64, "nullmin": -64, "unit": "degrees" }, "name": "Intake camshaft advance, bank 2"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1138"}, "freq": 1, "dbgfilter": { "to": 2011, "from": 2013 },
   "signals": [
