@@ -15,6 +15,10 @@
   "signals": [
     {"id": "370Z_ODO_METER", "path": "Trips", "fmt": {"bix": 64, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Odometer, meter group 1", "suggestedMetric": "odometer"}
   ]},
+{ "hdr": "797", "rax": "79A", "fcm1": true, "dbg": true, "cmd": {"22": "1155"}, "freq": 30,
+  "signals": [
+    {"id": "370Z_RANGE_DISP", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Range shown on the display", "suggestedMetric": "fuelRange"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "110A"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2013 },
   "signals": [
     {"id": "370Z_IGN_TIM_ADVANCE", "path": "Engine", "fmt": { "len": 8, "max": 110, "min": -145, "mul": -1, "add": 110, "unit": "degrees" }, "name": "Ignition timing advance"}
