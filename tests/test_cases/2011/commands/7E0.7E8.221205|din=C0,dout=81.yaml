@@ -4,8 +4,8 @@ test_cases:
     370Z_MAF_V_B2: 0.755
   response: '7E8056212050097'
 - expected_values:
-    370Z_MAF_V_B2: 1.23
-  response: 7E80562120500F6
-- expected_values:
     370Z_MAF_V_B2: 1.32
   response: '7E8056212050108'
+- expected_values:
+    370Z_MAF_V_B2: 2.515
+  response: 7E80562120501F7
