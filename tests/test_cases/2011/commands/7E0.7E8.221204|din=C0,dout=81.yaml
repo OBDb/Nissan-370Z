@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221204|din=C0,dout=81
+test_cases:
+- expected_values:
+    370Z_MAF_VOLTS_B1: 0.73
+  response: '7E8056212040092'
+- expected_values:
+    370Z_MAF_VOLTS_B1: 1.265
+  response: 7E80562120400FD
+- expected_values:
+    370Z_MAF_VOLTS_B1: 1.315
+  response: '7E8056212040107'
