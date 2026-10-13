@@ -18,3 +18,12 @@ test_cases:
 - expected_values:
     370Z_FUEL_T: 36
   response: '7E80462111156'
+- expected_values:
+    370Z_FUEL_T: 37
+  response: '7E80462111157'
+- expected_values:
+    370Z_FUEL_T: 38
+  response: '7E80462111158'
+- expected_values:
+    370Z_FUEL_T: 39
+  response: '7E80462111159'
