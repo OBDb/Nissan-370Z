@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221209|din=C0,dout=81
+test_cases:
+- expected_values:
+    370Z_MAF: 2.44
+  response: 7E80562120900F4
+- expected_values:
+    370Z_MAF: 38.41
+  response: 7E8056212090F01
+- expected_values:
+    370Z_MAF: 43.29
+  response: 7E80562120910E9
