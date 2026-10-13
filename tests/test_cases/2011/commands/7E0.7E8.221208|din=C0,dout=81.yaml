@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.221208|din=C0,dout=81
 test_cases:
 - expected_values:
-    370Z_FUEL_BASE_WIDTH: 2.01953
-  response: '7E8056212081028'
+    370Z_FUEL_BASE_WIDTH: 1.61328
+  response: 7E8056212080CE8
 - expected_values:
     370Z_FUEL_BASE_WIDTH: 3.75537
   response: 7E8056212081E0B
 - expected_values:
-    370Z_FUEL_BASE_WIDTH: 7.49951
-  response: 7E8056212083BFF
+    370Z_FUEL_BASE_WIDTH: 6.37451
+  response: 7E80562120832FF
 - expected_values:
     370Z_FUEL_BASE_WIDTH: 16.13525
   response: '7E8056212088115'
