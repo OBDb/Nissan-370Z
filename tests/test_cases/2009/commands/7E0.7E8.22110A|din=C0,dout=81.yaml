@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22110A|din=C0,dout=81
+test_cases:
+- expected_values:
+    370Z_IGN_TIM_ADVANCE: 54
+  response: 7E80462110A38
+- expected_values:
+    370Z_IGN_TIM_ADVANCE: 49
+  response: 7E80462110A3D
+- expected_values:
+    370Z_IGN_TIM_ADVANCE: 45
+  response: 7E80462110A41
+- expected_values:
+    370Z_IGN_TIM_ADVANCE: 44
+  response: 7E80462110A42
+- expected_values:
+    370Z_IGN_TIM_ADVANCE: 37
+  response: 7E80462110A49
+- expected_values:
+    370Z_IGN_TIM_ADVANCE: 31
+  response: 7E80462110A4F
+- expected_values:
+    370Z_IGN_TIM_ADVANCE: 1
+  response: 7E80462110A6D

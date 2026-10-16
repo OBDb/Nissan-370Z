@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221138|din=C0,dout=81
+test_cases:
+- expected_values:
+    370Z_CAM_VLV_DUTY_B1: 31.25
+  response: '7E80462113850'
+- expected_values:
+    370Z_CAM_VLV_DUTY_B1: 32.03125
+  response: '7E80462113852'
+- expected_values:
+    370Z_CAM_VLV_DUTY_B1: 33.20312
+  response: '7E80462113855'
+- expected_values:
+    370Z_CAM_VLV_DUTY_B1: 33.98438
+  response: '7E80462113857'
+- expected_values:
+    370Z_CAM_VLV_DUTY_B1: 41.40625
+  response: 7E8046211386A
+- expected_values:
+    370Z_CAM_VLV_DUTY_B1: 42.1875
+  response: 7E8046211386C

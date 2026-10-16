@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.221208|din=C0,dout=81
+test_cases:
+- expected_values:
+    370Z_FUEL_BASE_WIDTH: 3.21875
+  response: 7E80562120819C0
+- expected_values:
+    370Z_FUEL_BASE_WIDTH: 4.8418
+  response: 7E80562120826BC
+- expected_values:
+    370Z_FUEL_BASE_WIDTH: 6.44873
+  response: '7E8056212083397'
+- expected_values:
+    370Z_FUEL_BASE_WIDTH: 7.1543
+  response: 7E805621208393C
+- expected_values:
+    370Z_FUEL_BASE_WIDTH: 8.10693
+  response: 7E80562120840DB
+- expected_values:
+    370Z_FUEL_BASE_WIDTH: 9.31494
+  response: 7E8056212084A85
+- expected_values:
+    370Z_FUEL_BASE_WIDTH: 10.55762
+  response: '7E8056212085476'
