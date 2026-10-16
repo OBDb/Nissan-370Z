@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221135|din=C0,dout=81
+test_cases:
+- expected_values:
+    370Z_CAM_ADV_ANG_B1: -64
+  response: '7E80462113500'

@@ -22,11 +22,11 @@
   "signals": [
     {"id": "370Z_RANGE_DISP", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Range shown on the display", "suggestedMetric": "fuelRange"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "110A"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2013 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "110A"}, "freq": 1, "dbgfilter": { "years": [2010], "from": 2013 },
   "signals": [
     {"id": "370Z_IGN_TIM_ADVANCE", "path": "Engine", "fmt": { "len": 8, "max": 110, "min": -145, "mul": -1, "add": 110, "unit": "degrees" }, "name": "Ignition timing advance"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1110"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2013 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1110"}, "freq": 1, "dbgfilter": { "years": [2010], "from": 2013 },
   "signals": [
     {"id": "370Z_EVAP_PURGE_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 127, "div": 2, "unit": "percent" }, "name": "EVAP purge duty"}
   ]},
@@ -46,7 +46,7 @@
   "signals": [
     {"id": "370Z_AF_ADJ_B2", "path": "Fuel", "fmt": { "len": 8, "max": 155, "min": -100, "add": -100, "unit": "percent" }, "name": "Air/fuel ratio adjustment, bank 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1135"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2013 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1135"}, "freq": 1, "dbgfilter": { "years": [2010], "from": 2013 },
   "signals": [
     {"id": "370Z_CAM_ADV_ANG_B1", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "add": -64, "unit": "degrees" }, "name": "Camshaft adv angle, B1"}
   ]},
@@ -54,7 +54,7 @@
   "signals": [
     {"id": "370Z_CAM_ADV_B2", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "add": -64, "nullmin": -64, "unit": "degrees" }, "name": "Intake camshaft advance, bank 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1138"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2013 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1138"}, "freq": 1, "dbgfilter": { "years": [2010], "from": 2013 },
   "signals": [
     {"id": "370Z_CAM_VLV_DUTY_B1", "path": "Engine", "fmt": { "len": 8, "max": 99.6, "mul": 25, "div": 64, "unit": "percent" }, "name": "Camshaft valve duty, B1"}
   ]},
@@ -62,11 +62,11 @@
   "signals": [
     {"id": "370Z_CAM_DUTY_B2", "path": "Engine", "fmt": { "len": 8, "max": 99.6, "mul": 25, "div": 64, "unit": "percent" }, "name": "Intake valve timing solenoid duty, bank 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1201"}, "freq": 0.25, "dbgfilter": { "to": 2010, "from": 2013 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1201"}, "freq": 0.25, "dbgfilter": { "years": [2010], "from": 2013 },
   "signals": [
     {"id": "370Z_CURRENT_RPM", "path": "Movement", "fmt": { "len": 16, "max": 819187, "mul": 25, "div": 2, "unit": "rpm" }, "name": "Current engine speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1204"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2013 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1204"}, "freq": 1, "dbgfilter": { "years": [2010], "from": 2013 },
   "signals": [
     {"id": "370Z_MAF_VOLTS_B1", "path": "Battery", "fmt": { "len": 16, "max": 327, "div": 200, "unit": "volts" }, "name": "Mass air flow volts, B1"}
   ]},
@@ -74,7 +74,7 @@
   "signals": [
     {"id": "370Z_MAF_V_B2", "path": "Engine", "fmt": { "len": 16, "max": 327, "div": 200, "unit": "volts" }, "name": "Mass air flow sensor voltage, bank 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1208"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2013 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1208"}, "freq": 1, "dbgfilter": { "years": [2010], "from": 2013 },
   "signals": [
     {"id": "370Z_FUEL_BASE_WIDTH", "path": "Fuel", "fmt": { "len": 16, "max": 31.99, "div": 2048, "unit": "milliseconds" }, "name": "Fuel base pulse width"}
   ]},
@@ -86,7 +86,7 @@
   "signals": [
     {"id": "370Z_CC_S", "path": "Cruise control", "fmt": { "len": 16, "max": 3686, "mul": 9, "div": 160, "unit": "kilometersPerHour" }, "name": "Cruise control set speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1305"}, "freq": 0.25, "dbgfilter": { "to": 2010, "from": 2013 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1305"}, "freq": 0.25, "dbgfilter": { "years": [2010], "from": 2013 },
   "signals": [
     {"id": "370Z_BRAKE_SWITCH", "path": "Control", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "scalar" }, "name": "Brake switch"}
   ]},

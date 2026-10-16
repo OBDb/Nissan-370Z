@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.221110|din=C0,dout=81
+test_cases:
+- expected_values:
+    370Z_EVAP_PURGE_DUTY: 0
+  response: '7E80462111000'
+- expected_values:
+    370Z_EVAP_PURGE_DUTY: 10.5
+  response: '7E80462111015'
+- expected_values:
+    370Z_EVAP_PURGE_DUTY: 16.5
+  response: '7E80462111021'
+- expected_values:
+    370Z_EVAP_PURGE_DUTY: 43.5
+  response: '7E80462111057'
+- expected_values:
+    370Z_EVAP_PURGE_DUTY: 45.5
+  response: 7E8046211105B
+- expected_values:
+    370Z_EVAP_PURGE_DUTY: 70
+  response: 7E8046211108C
+- expected_values:
+    370Z_EVAP_PURGE_DUTY: 89.5
+  response: 7E804621110B3
