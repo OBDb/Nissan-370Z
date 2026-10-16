@@ -1,23 +1,11 @@
 command_id: 7E0.7E8.221204|din=C0,dout=81
 test_cases:
 - expected_values:
-    370Z_MAF_VOLTS_B1: 1.49
-  response: 7E805621204012A
+    370Z_MAF_VOLTS_B1: 0.965
+  response: 7E80562120400C1
 - expected_values:
-    370Z_MAF_VOLTS_B1: 1.79
-  response: '7E8056212040166'
+    370Z_MAF_VOLTS_B1: 1.175
+  response: 7E80562120400EB
 - expected_values:
-    370Z_MAF_VOLTS_B1: 2.025
-  response: '7E8056212040195'
-- expected_values:
-    370Z_MAF_VOLTS_B1: 2.04
-  response: '7E8056212040198'
-- expected_values:
-    370Z_MAF_VOLTS_B1: 2.145
-  response: 7E80562120401AD
-- expected_values:
-    370Z_MAF_VOLTS_B1: 2.34
-  response: 7E80562120401D4
-- expected_values:
-    370Z_MAF_VOLTS_B1: 2.405
-  response: 7E80562120401E1
+    370Z_MAF_VOLTS_B1: 1.465
+  response: '7E8056212040125'
