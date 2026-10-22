@@ -4,8 +4,8 @@ test_cases:
     370Z_MAF_VOLTS_B1: 0.965
   response: 7E80562120400C1
 - expected_values:
-    370Z_MAF_VOLTS_B1: 1.175
-  response: 7E80562120400EB
+    370Z_MAF_VOLTS_B1: 1.2
+  response: 7E80562120400F0
 - expected_values:
     370Z_MAF_VOLTS_B1: 1.465
   response: '7E8056212040125'

@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221138|din=C0,dout=81
 test_cases:
 - expected_values:
-    370Z_CAM_VLV_DUTY_B1: 29.29688
-  response: 7E8046211384B
+    370Z_CAM_VLV_DUTY_B1: 0
+  response: '7E80462113800'
 - expected_values:
     370Z_CAM_VLV_DUTY_B1: 45.70312
   response: '7E80462113875'
