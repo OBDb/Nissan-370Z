@@ -4,5 +4,17 @@ test_cases:
     370Z_F_RAT_ADJ_B1: -19
   response: '7E80462112351'
 - expected_values:
+    370Z_F_RAT_ADJ_B1: 0
+  response: '7E80462112364'
+- expected_values:
+    370Z_F_RAT_ADJ_B1: 2
+  response: '7E80462112366'
+- expected_values:
+    370Z_F_RAT_ADJ_B1: 4
+  response: '7E80462112368'
+- expected_values:
+    370Z_F_RAT_ADJ_B1: 8
+  response: 7E8046211236C
+- expected_values:
     370Z_F_RAT_ADJ_B1: 16
   response: '7E80462112374'
