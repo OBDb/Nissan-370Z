@@ -4,5 +4,5 @@ test_cases:
     370Z_IGN_TIM_ADVANCE: 110
   response: 7E80462110A00
 - expected_values:
-    370Z_IGN_TIM_ADVANCE: 1
-  response: 7E80462110A6D
+    370Z_IGN_TIM_ADVANCE: 0
+  response: 7E80462110A6E
