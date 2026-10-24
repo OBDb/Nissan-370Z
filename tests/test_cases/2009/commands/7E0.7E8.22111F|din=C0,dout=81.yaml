@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22111F|din=C0,dout=81
 test_cases:
 - expected_values:
+    370Z_VARIABLE_VLV_TIM_OIL_T: 80
+  response: "22111F\n7E8 04 62 11 1F 82 "
+- expected_values:
     370Z_VARIABLE_VLV_TIM_OIL_T: 23
   response: 7E80462111F49
 - expected_values:

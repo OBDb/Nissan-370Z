@@ -193,6 +193,7 @@ unsupported_commands_by_ecu:
   - 79B.7BB.210C
   - 79B.7BB.2161
   "7DF":
+  - 7DF.010C
   - 7DF.0124
   - 7DF.0131
   - 7DF.0144
