@@ -9,6 +9,9 @@ test_cases:
     APP_D: 0
   response: '7E8 03 41 49 00 '
 - expected_values:
+    APP_D: 20.78431
+  response: '7E8 03 41 49 35 '
+- expected_values:
     APP_D: 0
   response: '7E803414900'
 - expected_values:
