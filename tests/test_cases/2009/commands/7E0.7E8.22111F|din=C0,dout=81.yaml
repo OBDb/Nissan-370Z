@@ -4,6 +4,9 @@ test_cases:
     370Z_VARIABLE_VLV_TIM_OIL_T: 80
   response: "22111F\n7E8 04 62 11 1F 82 "
 - expected_values:
+    370Z_VARIABLE_VLV_TIM_OIL_T: 90
+  response: '7E8 04 62 11 1F 8C '
+- expected_values:
     370Z_VARIABLE_VLV_TIM_OIL_T: 23
   response: 7E80462111F49
 - expected_values:
