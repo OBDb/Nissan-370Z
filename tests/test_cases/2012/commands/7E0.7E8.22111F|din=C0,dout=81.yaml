@@ -21,8 +21,8 @@ test_cases:
     22111F
     7E80462111F90
 - expected_values:
-    370Z_VARIABLE_VLV_TIM_OIL_T: 18
-  response: 7E80462111F44
+    370Z_VARIABLE_VLV_TIM_OIL_T: 10
+  response: 7E80462111F3C
 - expected_values:
     370Z_VARIABLE_VLV_TIM_OIL_T: 105
   response: 7E80462111F9B
