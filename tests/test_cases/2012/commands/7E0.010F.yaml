@@ -16,8 +16,8 @@ test_cases:
     010F
     7E803410F60
 - expected_values:
-    IAT: 15
-  response: 7E803410F37
+    IAT: 11
+  response: 7E803410F33
 - expected_values:
     IAT: 84
   response: 7E803410F7C
