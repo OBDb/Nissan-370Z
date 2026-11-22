@@ -35,5 +35,5 @@ test_cases:
     370Z_MAF: 5.11
   response: 7E80562120901FF
 - expected_values:
-    370Z_MAF: 220.45
-  response: 7E805621209561D
+    370Z_MAF: 261.97
+  response: '7E8056212096655'
